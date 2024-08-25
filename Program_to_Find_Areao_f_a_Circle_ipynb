@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4X+QZPZUGdgkONeOK+t7O",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sharishma1806/python/blob/main/Program_to_Find_Areao_f_a_Circle_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eOao_tOEeTbW",
+        "outputId": "2d4083bb-4c04-4abc-ebc3-da39286b0ae3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Area is 78.550000\n"
+          ]
+        }
+      ],
+      "source": [
+        "def findArea(r):\n",
+        "    PI = 3.142\n",
+        "    return PI * (r*r);\n",
+        "\n",
+        "# Driver method\n",
+        "print(\"Area is %.6f\" % findArea(5));"
+      ]
+    }
+  ]
+}
